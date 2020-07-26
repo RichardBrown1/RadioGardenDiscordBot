@@ -1,16 +1,32 @@
 import discord
+import json
 import traceback
 import os
 import asyncio
-from usefulFunctions import dubApos
+import urllib
+import requests
+#from usefulFunctions import dubApos
 from discord.ext import commands
 
 URL_SEARCH = "http://radio.garden/api/search?q="
-
-conn = sqlite3.connect('radioGarden.db')
-c = conn.cursor()
+URL_LISTEN = "https://radio.garden/api/ara/content/listen/"
 
 bot = commands.Bot(command_prefix='`')
+
+gResults = []
+
+def getListenURL(channelID):
+    return URL_LISTEN + channelID + "/channel.mp3"
+
+def removeRGQueryString(url):
+    # RadioGarden Adds a query string (always?)
+    # https://plaza.one/mp3?listening-from-radio-garden=1595772606590
+    # screws up some radio stations
+    pos = url.find("?listening-from-radio-garden")
+    if(pos != -1):
+        return url[:pos]
+    else:
+        return url
 
 @bot.event
 async def on_ready():
@@ -24,47 +40,62 @@ async def hello(ctx):
 async def quit(ctx):
     os._exit
     
+# TODO do something when places are returned
 @bot.command(name="search", aliases=['lookup'])
-async def search(ctx, *args):
+async def search(ctx, printMsg = True, *args):
     searchTerms = ""
     for keyword in args:
         searchTerms = searchTerms + " " + keyword
     print(searchTerms)
     with urllib.request.urlopen(URL_SEARCH + urllib.parse.quote(searchTerms)) as url:
-        places = json.loads(url.read())
-        placesList = places["data"]["list"]
-        print(json.dumps(places["data"]["list"][0], indent=4))       
-    
+        apiResults = json.loads(url.read())
+        msg = "Showing results for query: " + str(apiResults["query"]) + "\n"
+        results = apiResults["hits"]["hits"]
+        
+        global gResults
+        gResults = ['1LLUcpsj'] #nightwaveplaza placeholder since list is going to start from 1
+        
+        number = 1
+        for result in range(len(results)):
+            try:
+                if(results[result]["_source"]["type"] == "channel"):
+                    msg = msg + str(number) + ". " 
+                    msg = msg + results[result]["_source"]["title"]
+                    msg = msg + "\n\t" + results[result]["_source"]["subtitle"]
+                    msg = msg + "\n\n"
+                    url = results[result]["_source"]["url"]
+                    gResults.append(url[-8:])
+                    number = number + 1
+            except:
+                print(traceback.format_exc())
+        print(gResults)
+        if printMsg:
+            await ctx.send(msg[:2000])     
         
 @bot.command(name="play")
 async def play(ctx, *args):
-    sql = 'SELECT mp3, Name, PlaceName, CountryName FROM RadioStations WHERE 1 = 1 '
-    try:
-        for keyword in args:
-            print(keyword)
-            cleanKeyword = dubApos(keyword)
-            sql = sql + "AND ( Name LIKE '%" + cleanKeyword + "%' "
-            sql = sql + "OR PlaceName LIKE '%" + cleanKeyword + "%' "
-            sql = sql + "OR CountryName LIKE '%" + cleanKeyword + "%' ) "
-        sql = sql + "LIMIT 15;"
-        print(sql)
-        c.execute(sql)
-        rows = c.fetchall()
-        result = ""
-        if len(rows) == 1:
-            await restartStream(ctx, rows[0][0])
-        elif len(rows) == 0:
-            result = "No results found"
-        else: 
-            result = "Multiple Radio Channels returned: \n"
-        for row in rows:
-            print(row)
-            for column in row:
-                result = result + column + " | "
-                result = result + "\n"  
-        await ctx.send(result) 
+    global gResults
+    print(gResults)
+    firstTerm = args[0]
+    isNumber = False
+    try: 
+        selected = int(firstTerm)
+        isNumber = True
     except:
-        await ctx.send(traceback.format_exc()) 
+        print("Searching")
+    finally:
+        if not isNumber:
+            await search(ctx, False, *args)
+            selected = 1
+
+        print(selected)        
+        x = requests.head(getListenURL(gResults[selected]))
+        print("headers")
+        print(x.headers)
+        if(x.status_code == 302):
+            url = x.headers['Location']
+            await restartStream(ctx, removeRGQueryString(url))
+          
     
 @bot.command(name="connect", aliases=['join'])
 async def connect_(ctx, *, channel: discord.VoiceChannel=None):
@@ -89,7 +120,7 @@ async def connect_(ctx, *, channel: discord.VoiceChannel=None):
     await ctx.send(f'Connected to: **{channel}**', delete_after=20)
     
 @bot.command(name="stream")
-async def stream_(self, ctx, *args, channel: discord.VoiceChannel=None):
+async def stream_(ctx, *args, channel: discord.VoiceChannel=None):
     global player
     if not channel:
         try:
@@ -110,24 +141,12 @@ async def stream_(self, ctx, *args, channel: discord.VoiceChannel=None):
         except: 
             await ctx.send("Timeout") 
     await ctx.send(f'Connected to: **{channel}** \n playing: ' + args[0], delete_after=20)
-    try:
-        stop(ctx)
-        player.play(discord.FFmpegPCMAudio(args[0]))
-    except Exception as e:
-        ctx.send(print(e))
+    stop(ctx)
+    player.play(discord.FFmpegPCMAudio(args[0]))
 
 @bot.command(name="pause")
 async def pause(ctx):
-    ctx.voice_client.pause
-    
-@bot.command(name="stop")
-async def stop(ctx):
-    ctx.voice_client.stop()
-
-@bot.command(name="resume")
-async def stop(ctx):
-    ctx.voice_client.resume()
-
+    player.stop()
     
 async def restartStream(ctx, url: str):
     if ctx.voice_client is None:
@@ -140,6 +159,6 @@ async def restartStream(ctx, url: str):
         ctx.voice_client.stop()
     ctx.voice_client.play(discord.FFmpegPCMAudio(url))
         
-bot.run('MjAyMzk5MDU1MzQxNTUxNjE2.XxBTAQ.8dsmBJLfQb9Ju3zf5AlD0h6K5bg')
+bot.run('YOUR_TOKEN_HERE')
 
 
