@@ -140,6 +140,6 @@ async def restartStream(ctx, url: str):
         ctx.voice_client.stop()
     ctx.voice_client.play(discord.FFmpegPCMAudio(url))
         
-bot.run('MjAyMzk5MDU1MzQxNTUxNjE2.XxBTAQ.8dsmBJLfQb9Ju3zf5AlD0h6K5bg')
+bot.run('YOUR_TOKEN_HERE')
 
 
