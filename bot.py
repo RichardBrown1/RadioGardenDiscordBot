@@ -1,11 +1,10 @@
 import discord
+import sqlite3
 import traceback
 import os
 import asyncio
 from usefulFunctions import dubApos
 from discord.ext import commands
-
-URL_SEARCH = "http://radio.garden/api/search?q="
 
 conn = sqlite3.connect('radioGarden.db')
 c = conn.cursor()
@@ -23,18 +22,22 @@ async def hello(ctx):
 @bot.command(name="quit")
 async def quit(ctx):
     os._exit
-    
-@bot.command(name="search", aliases=['lookup'])
-async def search(ctx, *args):
-    searchTerms = ""
-    for keyword in args:
-        searchTerms = searchTerms + " " + keyword
-    print(searchTerms)
-    with urllib.request.urlopen(URL_SEARCH + urllib.parse.quote(searchTerms)) as url:
-        places = json.loads(url.read())
-        placesList = places["data"]["list"]
-        print(json.dumps(places["data"]["list"][0], indent=4))       
-    
+
+@bot.command(name="sql")
+async def sql(ctx, *args):
+    sql = " ".join(args)
+    print(sql)
+    result = ""
+    try:
+        c.execute(sql)
+        rows = c.fetchall()
+        for row in rows:
+            for column in row:
+                result = result + str(column) + " | "
+            result = result + "\n"
+        await ctx.send(result, delete_after=20)           
+    except:
+        await ctx.send(traceback.format_exc())
         
 @bot.command(name="play")
 async def play(ctx, *args):
@@ -46,21 +49,21 @@ async def play(ctx, *args):
             sql = sql + "AND ( Name LIKE '%" + cleanKeyword + "%' "
             sql = sql + "OR PlaceName LIKE '%" + cleanKeyword + "%' "
             sql = sql + "OR CountryName LIKE '%" + cleanKeyword + "%' ) "
-        sql = sql + "LIMIT 15;"
+        sql = sql + "LIMIT 20;"
         print(sql)
         c.execute(sql)
         rows = c.fetchall()
-        result = ""
         if len(rows) == 1:
-            await restartStream(ctx, rows[0][0])
+            result = rows[0][0]
+            await restartStream(ctx, result)
         elif len(rows) == 0:
             result = "No results found"
         else: 
             result = "Multiple Radio Channels returned: \n"
-        for row in rows:
-            print(row)
-            for column in row:
-                result = result + column + " | "
+            for row in rows:
+                print(row)
+                for column in row:
+                    result = result + column + " | "
                 result = result + "\n"  
         await ctx.send(result) 
     except:
@@ -89,7 +92,7 @@ async def connect_(ctx, *, channel: discord.VoiceChannel=None):
     await ctx.send(f'Connected to: **{channel}**', delete_after=20)
     
 @bot.command(name="stream")
-async def stream_(self, ctx, *args, channel: discord.VoiceChannel=None):
+async def stream_(ctx, *args, channel: discord.VoiceChannel=None):
     global player
     if not channel:
         try:
@@ -110,24 +113,12 @@ async def stream_(self, ctx, *args, channel: discord.VoiceChannel=None):
         except: 
             await ctx.send("Timeout") 
     await ctx.send(f'Connected to: **{channel}** \n playing: ' + args[0], delete_after=20)
-    try:
-        stop(ctx)
-        player.play(discord.FFmpegPCMAudio(args[0]))
-    except Exception as e:
-        ctx.send(print(e))
+    stop(ctx)
+    player.play(discord.FFmpegPCMAudio(args[0]))
 
 @bot.command(name="pause")
 async def pause(ctx):
-    ctx.voice_client.pause
-    
-@bot.command(name="stop")
-async def stop(ctx):
-    ctx.voice_client.stop()
-
-@bot.command(name="resume")
-async def stop(ctx):
-    ctx.voice_client.resume()
-
+    player.stop()
     
 async def restartStream(ctx, url: str):
     if ctx.voice_client is None:

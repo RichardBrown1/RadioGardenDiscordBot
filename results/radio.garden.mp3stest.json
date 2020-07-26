@@ -1,0 +1,2542 @@
+[
+    {
+        "id": "LcTyJeRx",
+        "name": "Bula FM 102.0",
+        "slug": "bula-fm-102-0",
+        "website": "http://bulafm.fbc.com.fj/",
+        "place": {
+            "name": "Suva",
+            "geo": [
+                178.4500789,
+                -18.1248086
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Fiji",
+            "code": "FJ"
+        },
+        "mp3": "http://peridot.streamguys.com:7150/Bula"
+    },
+    {
+        "id": "xml1MAa5",
+        "name": "FM 96",
+        "slug": "fm-96",
+        "website": "https://fijivillage.com/fm96/",
+        "place": {
+            "name": "Suva",
+            "geo": [
+                178.4500789,
+                -18.1248086
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Fiji",
+            "code": "FJ"
+        },
+        "mp3": "http://192.111.142.176:8000/FM96"
+    },
+    {
+        "id": "tkBhjLEk",
+        "name": "Mirchi FM 97.8",
+        "slug": "mirchi-fm-97-8",
+        "website": "http://mirchifm.fbc.com.fj/",
+        "place": {
+            "name": "Suva",
+            "geo": [
+                178.4500789,
+                -18.1248086
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Fiji",
+            "code": "FJ"
+        },
+        "mp3": "http://peridot.streamguys.com:7150/Mirchi"
+    },
+    {
+        "id": "yZvnVHFS",
+        "name": "Radio 2Day FM",
+        "slug": "radio-2day-fm",
+        "website": "http://2dayfm.fbc.com.fj/",
+        "place": {
+            "name": "Suva",
+            "geo": [
+                178.4500789,
+                -18.1248086
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Fiji",
+            "code": "FJ"
+        },
+        "mp3": "http://peridot.streamguys.com:7150/2Day"
+    },
+    {
+        "id": "BrEFxn5n",
+        "name": "Radio Fiji GOLD FM 100.4",
+        "slug": "radio-fiji-gold-fm-100-4",
+        "website": "http://goldfm.fbc.com.fj/",
+        "place": {
+            "name": "Suva",
+            "geo": [
+                178.4500789,
+                -18.1248086
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Fiji",
+            "code": "FJ"
+        },
+        "mp3": "http://peridot.streamguys.com:7150/Gold"
+    },
+    {
+        "id": "EJsyacaD",
+        "name": "Radio Fiji ONE FM 107.4",
+        "slug": "radio-fiji-one-fm-107-4",
+        "website": "http://rf1.fbc.com.fj/",
+        "place": {
+            "name": "Suva",
+            "geo": [
+                178.4500789,
+                -18.1248086
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Fiji",
+            "code": "FJ"
+        },
+        "mp3": "http://peridot.streamguys.com:7150/RFOne"
+    },
+    {
+        "id": "lxTrNA6S",
+        "name": "Radio Fiji Two",
+        "slug": "radio-fiji-two",
+        "website": "http://rf2.fbc.com.fj/",
+        "place": {
+            "name": "Suva",
+            "geo": [
+                178.4500789,
+                -18.1248086
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Fiji",
+            "code": "FJ"
+        },
+        "mp3": "http://peridot.streamguys.com:7150/RFTwo"
+    },
+    {
+        "id": "xsnmPbga",
+        "name": "Radio Navtarang FM 101",
+        "slug": "radio-navtarang-fm-101",
+        "website": "https://fijivillage.com/navtarang/",
+        "place": {
+            "name": "Suva",
+            "geo": [
+                178.4500789,
+                -18.1248086
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Fiji",
+            "code": "FJ"
+        },
+        "mp3": "http://192.111.142.176:8000/NAVTARANG"
+    },
+    {
+        "id": "CCkPkwAP",
+        "name": "Radio Sargam",
+        "slug": "radio-sargam-fm-96-0",
+        "website": "https://fijivillage.com/radiosargam/",
+        "place": {
+            "name": "Suva",
+            "geo": [
+                178.4500789,
+                -18.1248086
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Fiji",
+            "code": "FJ"
+        },
+        "mp3": "http://192.111.142.176:8000/SARGAM"
+    },
+    {
+        "id": "kJtLEHUh",
+        "name": "Viti FM 102.8",
+        "slug": "viti-fm-102-8",
+        "website": "https://fijivillage.com/vitifm/",
+        "place": {
+            "name": "Suva",
+            "geo": [
+                178.4500789,
+                -18.1248086
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Fiji",
+            "code": "FJ"
+        },
+        "mp3": "http://192.111.142.176:8000/VITIFM"
+    },
+    {
+        "id": "TdD8V8Os",
+        "name": "Switch FM 106.8",
+        "slug": "switch-fm-106-8",
+        "website": "https://www.facebook.com/spellboundradio/",
+        "place": {
+            "name": "Gisborne",
+            "geo": [
+                178.017649,
+                -38.662334
+            ]
+        },
+        "functioning": true,
+        "secure": true,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "https://s3.radio.co/s3620d3fd0/listen"
+    },
+    {
+        "id": "HtADw4-B",
+        "name": "Switch FM 87.9",
+        "slug": "switch-fm-87-9",
+        "website": "http://www.theswitch.co.nz",
+        "place": {
+            "name": "Gisborne",
+            "geo": [
+                178.017649,
+                -38.662334
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://s8.myradiostream.com:56886/listen.m4a"
+    },
+    {
+        "id": "ayDGxMXR",
+        "name": "Radio Purga",
+        "slug": "radio-purga",
+        "website": "http://radiopurga.org",
+        "place": {
+            "name": "Anadyr",
+            "geo": [
+                177.49682659999996,
+                64.7336613
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Russia",
+            "code": "RU"
+        },
+        "mp3": "http://109.197.144.84:8000/live"
+    },
+    {
+        "id": "fTB1NGm0",
+        "name": "Mix FM 93.8",
+        "slug": "mix-fm-93-8",
+        "website": "https://mix.com.fj/",
+        "place": {
+            "name": "Lautoka",
+            "geo": [
+                177.4504888,
+                -17.6169957
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Fiji",
+            "code": "FJ"
+        },
+        "mp3": "http://fijiradio.net:8000/live"
+    },
+    {
+        "id": "XeC94ir4",
+        "name": "Radio Bay FM 100.7",
+        "slug": "radio-bay-fm-100-7",
+        "website": "http://www.radiobayfm.co.nz/",
+        "place": {
+            "name": "Hastings",
+            "geo": [
+                176.8392322,
+                -39.6395783
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://s38.myradiostream.com:8876/;;"
+    },
+    {
+        "id": "gGoBULyu",
+        "name": "Radio Kidnappers",
+        "slug": "radiokidnappers",
+        "website": "http://www.radiokidnappers.org.nz/",
+        "place": {
+            "name": "Hastings",
+            "geo": [
+                176.8392322,
+                -39.6395783
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://pebbles.wizzhosting.co.nz/rk"
+    },
+    {
+        "id": "WaTroSoa",
+        "name": "Kiss FM 106.9",
+        "slug": "kiss-fm-106-9",
+        "website": "http://www.kissfm.co.nz",
+        "place": {
+            "name": "Tauranga",
+            "geo": [
+                176.1651295,
+                -37.6877975
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://tunein-icecast.mediaworks.nz/rock_128kbps"
+    },
+    {
+        "id": "WAY5wY4x",
+        "name": "Cool Blue Taupo FM 107.5",
+        "slug": "cool-blue-taupo-fm-107-5",
+        "website": "https://www.coolbluetaupo.com/",
+        "place": {
+            "name": "Taupo",
+            "geo": [
+                176.0702098,
+                -38.6856924
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://37.59.28.208:8166/stream"
+    },
+    {
+        "id": "Ftrzc2Hy",
+        "name": "The Chill",
+        "slug": "helpmechill",
+        "website": "http://www.helpmechill.com/",
+        "place": {
+            "name": "Taupo",
+            "geo": [
+                176.0702098,
+                -38.6856924
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://media-sov.musicradio.com/Chill"
+    },
+    {
+        "id": "dbljyPGD",
+        "name": "Ski FM",
+        "slug": "ski-fm-network",
+        "website": "http://skifmnetwork.co.nz",
+        "place": {
+            "name": "Taupo",
+            "geo": [
+                176.0702098,
+                -38.6856924
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://s2.radio.co/s6436891bc/listen"
+    },
+    {
+        "id": "qcfvBFRm",
+        "name": "Sleep Radio",
+        "slug": "sleep-radio",
+        "website": "https://www.sleepradio.co.nz",
+        "place": {
+            "name": "Te Aroha",
+            "geo": [
+                175.7117312,
+                -37.5425906
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://149.56.234.138:8169/;;"
+    },
+    {
+        "id": "CULZ0LxI",
+        "name": "Access Manawatu 999 AM",
+        "slug": "access-manawatu-999-am",
+        "website": "http://www.accessmanawatu.co.nz",
+        "place": {
+            "name": "Palmerston North",
+            "geo": [
+                175.6082145,
+                -40.3523065
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://live.wizz.co.nz/am"
+    },
+    {
+        "id": "kx1rB5Be",
+        "name": "Radio Control",
+        "slug": "radio-control",
+        "website": "http://radiocontrol.org.nz/",
+        "place": {
+            "name": "Palmerston North",
+            "geo": [
+                175.6082145,
+                -40.3523065
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://ice1.outcastdigital.com:8000/radiocontrol"
+    },
+    {
+        "id": "2l1XEsj9",
+        "name": "Free FM 89",
+        "slug": "free-fm-89",
+        "website": "https://www.freefm.org.nz/",
+        "place": {
+            "name": "Hamilton",
+            "geo": [
+                175.279253,
+                -37.7870012
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://live.wizz.co.nz/freefm"
+    },
+    {
+        "id": "EaZFRU98",
+        "name": "Coast Access Radio 104.7 FM",
+        "slug": "coast-access-radio-104-7-fm",
+        "website": "http://coastaccessradio.org.nz",
+        "place": {
+            "name": "Waikanae",
+            "geo": [
+                175.0667946,
+                -40.8755143
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://live.wizz.co.nz/car"
+    },
+    {
+        "id": "6jwZvaET",
+        "name": "RAG-FM 107.7",
+        "slug": "rag-fm-107-7",
+        "website": "http://ragfm.com/",
+        "place": {
+            "name": "Raglan",
+            "geo": [
+                174.87179449999996,
+                -37.8014057
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://70.38.12.44:8564/;"
+    },
+    {
+        "id": "W6uFayHF",
+        "name": "Raglan Community Radio",
+        "slug": "raglan-community-radio",
+        "website": "http://raglanradio.com/",
+        "place": {
+            "name": "Raglan",
+            "geo": [
+                174.87179449999996,
+                -37.8014057
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://58.28.153.160/broadwave.mp3?src=1&rate=128"
+    },
+    {
+        "id": "bK3MK9pl",
+        "name": "Andhow.FM",
+        "slug": "andhow",
+        "website": "http://www.andhow.fm/",
+        "place": {
+            "name": "Porirua",
+            "geo": [
+                174.8406006,
+                -41.13389979999999
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": ""
+    },
+    {
+        "id": "zxcvhPdi",
+        "name": "KIX FM",
+        "slug": "kixfm",
+        "website": "http://kixfm.co.nz",
+        "place": {
+            "name": "Wellington",
+            "geo": [
+                174.776236,
+                -41.2864603
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://stream.amsmusic.co.nz:8178/stream"
+    },
+    {
+        "id": "ORW9opC1",
+        "name": "Maranui FM",
+        "slug": "maranui-fm",
+        "website": "http://www.maranuifm.co.nz/",
+        "place": {
+            "name": "Wellington",
+            "geo": [
+                174.776236,
+                -41.2864603
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://pebbles.wizzhosting.co.nz/maranuifm"
+    },
+    {
+        "id": "H1N7GNBa",
+        "name": "Mix FM 87.7",
+        "slug": "mix-fm-87-9",
+        "website": "http://mixfm.nz/",
+        "place": {
+            "name": "Wellington",
+            "geo": [
+                174.776236,
+                -41.2864603
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://stream.mixfm.nz/"
+    },
+    {
+        "id": "3R8pu818",
+        "name": "Naked FM",
+        "slug": "naked-fm",
+        "website": "http://www.nakedfm.co.nz",
+        "place": {
+            "name": "Wellington",
+            "geo": [
+                174.776236,
+                -41.2864603
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://203.96.209.218:8000/;"
+    },
+    {
+        "id": "LZBDHgeY",
+        "name": "Radio Active",
+        "slug": "radioactive",
+        "website": "http://www.radioactive.co.nz/",
+        "place": {
+            "name": "Wellington",
+            "geo": [
+                174.776236,
+                -41.2864603
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://stream.radioactive.fm:8000/ractive"
+    },
+    {
+        "id": "HgaKaanE",
+        "name": "RNZ International",
+        "slug": "rnz-international",
+        "website": "http://www.rnzi.com/",
+        "place": {
+            "name": "Wellington",
+            "geo": [
+                174.776236,
+                -41.2864603
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://radionz-ice.streamguys.com/international.mp3"
+    },
+    {
+        "id": "D5TltEXG",
+        "name": "RNZ National",
+        "slug": "rnz-national",
+        "website": "http://www.radionz.co.nz/national",
+        "place": {
+            "name": "Wellington",
+            "geo": [
+                174.776236,
+                -41.2864603
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://radionz-ice.streamguys.com/national.mp3"
+    },
+    {
+        "id": "wBAl1HqY",
+        "name": "Wellington Access Radio 106.1 FM",
+        "slug": "wellington-access-radio-106-1-fm",
+        "website": "http://www.accessradio.org.nz/",
+        "place": {
+            "name": "Wellington",
+            "geo": [
+                174.776236,
+                -41.2864603
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://live.wizz.co.nz/war"
+    },
+    {
+        "id": "JEWAYMhr",
+        "name": "World FM",
+        "slug": "worldfm",
+        "website": "http://www.worldfm.co.nz",
+        "place": {
+            "name": "Wellington",
+            "geo": [
+                174.776236,
+                -41.2864603
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://www.worldfm.co.nz:8882/worldfm.mp3?.mp3="
+    },
+    {
+        "id": "GqF4MoVB",
+        "name": "95bFM",
+        "slug": "95bfm",
+        "website": "http://www.95bfm.co.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://streams.95bfm.com/stream128"
+    },
+    {
+        "id": "0WSrP4HT",
+        "name": "Apna 990 AM",
+        "slug": "apna-990-am",
+        "website": "http://www.apna990.com/onlineradio/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://69.30.243.166:12108/;"
+    },
+    {
+        "id": "ghWDelYs",
+        "name": "Auckland 80s",
+        "slug": "auckland-80s",
+        "website": "http://auckland80s.com",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://janus.shoutca.st:8020/stream"
+    },
+    {
+        "id": "Hk8h781T",
+        "name": "Coast FM 105.4",
+        "slug": "coast-fm-105-4",
+        "website": "https://www.thecoast.net.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://ais-nzme.streamguys1.com/nz_011_aac"
+    },
+    {
+        "id": "X77Pz9Rz",
+        "name": "Dave FM",
+        "slug": "dave-fm",
+        "website": "http://www.davefm.net",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://s13.myradiostream.com:4618/listen.mp3"
+    },
+    {
+        "id": "kjWml9tP",
+        "name": "East FM",
+        "slug": "east-fm",
+        "website": "http://www.eastfm.nz",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://listen.eastfm.nz/stream.mp3"
+    },
+    {
+        "id": "orDCjTzt",
+        "name": "Flava FM 95.8",
+        "slug": "flava",
+        "website": "http://www.flava.co.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://ais-nzme.streamguys1.com/nz_010_aac"
+    },
+    {
+        "id": "rwoGjzXl",
+        "name": "Hauraki FM 99.0",
+        "slug": "hauraki",
+        "website": "http://www.hauraki.co.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://ais-nzme.streamguys1.com/nz_009_aac"
+    },
+    {
+        "id": "wVaEJq8a",
+        "name": "Humm FM 106.2",
+        "slug": "humm-fm",
+        "website": "http://hummfm.com",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": true,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "https://cp12.serverse.com/proxy/hummfm?mp=%2Flive"
+    },
+    {
+        "id": "OJDD0iQu",
+        "name": "Just Jazz",
+        "slug": "just-jazz",
+        "website": "https://justjazz.nz",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": true,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "https://justjazz.radioca.st/stream"
+    },
+    {
+        "id": "MsxGJpvo",
+        "name": "KFM 106.9",
+        "slug": "kfmradio",
+        "website": "http://www.kfmradio.co.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://s2.voscast.com:11614/;"
+    },
+    {
+        "id": "nVkziZFM",
+        "name": "Life FM Auckland",
+        "slug": "lifefm",
+        "website": "http://www.lifefm.co.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://rhema-radio.streamguys1.com/rhema-lifefm.mp3"
+    },
+    {
+        "id": "t_YN3u3z",
+        "name": "Mad FM Worldwide",
+        "slug": "mad-fm-worldwide",
+        "website": "http://madfm.net/index.html",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://falcon.shoutca.st:8325/stream"
+    },
+    {
+        "id": "FgvMxukC",
+        "name": "Mai FM 88.6",
+        "slug": "mai-fm-88-6",
+        "website": "https://www.maifm.co.nz/home.html",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://tunein-icecast.mediaworks.nz/maifm_128kbps"
+    },
+    {
+        "id": "lYHY8bcX",
+        "name": "Newstalk ZB FM 89.4",
+        "slug": "newstalkzb",
+        "website": "http://www.newstalkzb.co.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://ais-nzme.streamguys1.com/nz_002_aac"
+    },
+    {
+        "id": "1COkdbBy",
+        "name": "Planet FM 104.6",
+        "slug": "planet-fm-1-4-6",
+        "website": "https://www.planetaudio.org.nz",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": true,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "https://cp12.shoutcheap.com:18220/strem"
+    },
+    {
+        "id": "f93z2vPu",
+        "name": "Radio 531pi",
+        "slug": "radio-531pi",
+        "website": "http://radio531pi.com/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://19263.live.streamtheworld.com/531PI.mp3"
+    },
+    {
+        "id": "OcCpANAj",
+        "name": "Radio Adhurs",
+        "slug": "radio-adhurs",
+        "website": "http://www.radioadhurs.co.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://188.165.192.5:8817/stream"
+    },
+    {
+        "id": "X1UiKQ6O",
+        "name": "Radio City",
+        "slug": "radio-city",
+        "website": "http://radiocityfm.co",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://54.251.110.128:8000/live"
+    },
+    {
+        "id": "TlNCmDuD",
+        "name": "Radio Samoa",
+        "slug": "radio-samoa",
+        "website": "http://www.radiosamoa.co.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://radiosamoa.stream.broadcast.co.nz:8000/rsamoa48k"
+    },
+    {
+        "id": "ixuUhlBm",
+        "name": "Radio Sport AM 1332",
+        "slug": "radio-sport-am-1332",
+        "website": "https://www.radiosport.co.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://ais-nzme.streamguys1.com/nz_001_aac"
+    },
+    {
+        "id": "VFzuGP88",
+        "name": "Radio Tarana AM 1386",
+        "slug": "radio-tarana-am-1386",
+        "website": "https://www.facebook.com/RadioTaranaNZ",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://peridot.streamguys.com:7150/Tarana.aac"
+    },
+    {
+        "id": "YBF2kCCi",
+        "name": "Radio Vox Brazil",
+        "slug": "radio-vox-brazil",
+        "website": "http://radiovoxbrazil.com/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "https://live.dgradios.com/voxbrazil_mp3_128k"
+    },
+    {
+        "id": "ICK16ZSL",
+        "name": "Radio Waatea AM 603",
+        "slug": "radio-waatea-am-603",
+        "website": "http://www.waateanews.com/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://apple.irirangi.net:8000/I_Waatea.aac"
+    },
+    {
+        "id": "4dQ5g0Cb",
+        "name": "Radio New Zealand National",
+        "slug": "radionz",
+        "website": "http://www.radionz.co.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://radionz-ice.streamguys.com/national.mp3"
+    },
+    {
+        "id": "cESgC4wF",
+        "name": "Retro Hit Radio",
+        "slug": "retro-hit-radio",
+        "website": "http://retrohitradio.co.nz",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://gemini.shoutca.st:8293/;"
+    },
+    {
+        "id": "UxJP4kYN",
+        "name": "New Zealand's Rhema",
+        "slug": "rhema",
+        "website": "http://www.rhema.co.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://rhema-radio.streamguys1.com/rhema.mp3"
+    },
+    {
+        "id": "3bbYzlbZ",
+        "name": "Star AM 882",
+        "slug": "star-am-882",
+        "website": "https://www.star.net.nz/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://rhema-radio.streamguys1.com/rhema-star.mp3"
+    },
+    {
+        "id": "zAbB0uYZ",
+        "name": "TAB Trackside Radio",
+        "slug": "tab-trackside-radio-am-1476",
+        "website": "http://static.tab.co.nz/content/trackside/index.html",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://falcon.shoutca.st:8103/TAB"
+    },
+    {
+        "id": "Jp5DQhph",
+        "name": "The Breeze FM 93.4",
+        "slug": "the-breeze-fm-93-4",
+        "website": "https://www.thebreeze.co.nz/home.html",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://tunein-icecast.mediaworks.nz/breeze_128kbps"
+    },
+    {
+        "id": "WnItD4EO",
+        "name": "West FM",
+        "slug": "west-fm",
+        "website": "http://westfmradio.com",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://dledgar.dyndns.org:8000/westfm"
+    },
+    {
+        "id": "CP4KHede",
+        "name": "ZFM – All The Hits",
+        "slug": "zfm-all-the-hits",
+        "website": "http://zfmglobal.com",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://nebula.shoutca.st:8545/stream"
+    },
+    {
+        "id": "M8y1ggwt",
+        "name": "ZM Online FM 91.0",
+        "slug": "zm-online-fm-91-0",
+        "website": "https://www.zmonline.com/",
+        "place": {
+            "name": "Auckland",
+            "geo": [
+                174.7633315,
+                -36.8484597
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://ais-nzme.streamguys1.com/nz_008_aac"
+    },
+    {
+        "id": "cEZ3CDvW",
+        "name": "Auckland 80s",
+        "slug": "auckland-80s",
+        "website": "https://www.auckland80s.com/",
+        "place": {
+            "name": "Waiuku",
+            "geo": [
+                174.7339909,
+                -37.2479443
+            ]
+        },
+        "functioning": true,
+        "secure": true,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "https://streamer.radio.co/s81fc850fd/listen"
+    },
+    {
+        "id": "UYTMBkxd",
+        "name": "Easy 80s",
+        "slug": "easy-80s",
+        "website": "https://www.auckland80s.com/easy-80s",
+        "place": {
+            "name": "Waiuku",
+            "geo": [
+                174.7339909,
+                -37.2479443
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://procyon.shoutca.st:8032/;"
+    },
+    {
+        "id": "LTJmOsDl",
+        "name": "The Groove",
+        "slug": "the-groove",
+        "website": "https://www.auckland80s.com/the-groove.html",
+        "place": {
+            "name": "Waiuku",
+            "geo": [
+                174.7339909,
+                -37.2479443
+            ]
+        },
+        "functioning": true,
+        "secure": true,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "https://s2.radio.co/s8f365c534/listen"
+    },
+    {
+        "id": "69r67ASK",
+        "name": "Heads FM 106.4",
+        "slug": "heads",
+        "website": "https://www.facebook.com/Heads106.4FM",
+        "place": {
+            "name": "Mangawhai",
+            "geo": [
+                174.5744737,
+                -36.1261904
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://144.217.195.24:8760/stream"
+    },
+    {
+        "id": "2VAij0Al",
+        "name": "BeagleRadio",
+        "slug": "beagleradio",
+        "website": "http://beagleradio.co.nz",
+        "place": {
+            "name": "Whangarei",
+            "geo": [
+                174.32462004346917,
+                -35.72264818444263
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://174.37.159.206:8034/stream"
+    },
+    {
+        "id": "fFWVqmft",
+        "name": "Ngāti Hine FM",
+        "slug": "ngati-hine-fm",
+        "website": "http://ngatihinefm.co.nz",
+        "place": {
+            "name": "Whangarei",
+            "geo": [
+                174.32462004346917,
+                -35.72264818444263
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://apple.irirangi.net:8000/N_Ngati_Hene.aac"
+    },
+    {
+        "id": "4qksMdzI",
+        "name": "The Generator",
+        "slug": "the-generator",
+        "website": "http://thegenerator.co.nz",
+        "place": {
+            "name": "Whangarei",
+            "geo": [
+                174.32462004346917,
+                -35.72264818444263
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://s1.myradiostream.com:14268/listen.mp3"
+    },
+    {
+        "id": "tbPfP7K9",
+        "name": "Access Radio Taranaki 104.4FM",
+        "slug": "access-radio-taranaki-104-4fm",
+        "website": "http://accessradiotaranaki.com",
+        "place": {
+            "name": "New Plymouth",
+            "geo": [
+                174.0752278,
+                -39.0556253
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://pebbles.wizzhosting.co.nz/art"
+    },
+    {
+        "id": "LYdgNZTr",
+        "name": "Cruize FM 105.2",
+        "slug": "cruize-fm-105-2",
+        "website": "https://www.cruize.fm",
+        "place": {
+            "name": "New Plymouth",
+            "geo": [
+                174.0752278,
+                -39.0556253
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://cruizefm.out.airtime.pro:8000/cruizefm_a"
+    },
+    {
+        "id": "AHtbT5lh",
+        "name": "The Most 100.4 FM",
+        "slug": "mostfm",
+        "website": "http://www.mostfm.co.nz/",
+        "place": {
+            "name": "New Plymouth",
+            "geo": [
+                174.0752278,
+                -39.0556253
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://gordon.mostfm.com:8000/high?.mp3="
+    },
+    {
+        "id": "MkTv2Nzp",
+        "name": "Awa Whanui Big River FM",
+        "slug": "awa-whanui-big-river-fm",
+        "website": "http://www.bigriverfm.co.nz",
+        "place": {
+            "name": "Dargaville",
+            "geo": [
+                173.8691427,
+                -35.9401291
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://bigriver.broadcast.co.nz/bigriverfm"
+    },
+    {
+        "id": "P0TjYZD7",
+        "name": "Fresh FM",
+        "slug": "freshfm",
+        "website": "http://www.freshfm.net",
+        "place": {
+            "name": "Nelson",
+            "geo": [
+                173.2839653,
+                -41.2706319
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://live.wizz.co.nz/ffm"
+    },
+    {
+        "id": "YmexLgIZ",
+        "name": "World FM",
+        "slug": "world-fm",
+        "website": "http://www.worldfm.co.nz",
+        "place": {
+            "name": "Marahau",
+            "geo": [
+                173.0088963,
+                -41.0077925
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://worldfm.radio:8882/worldfmstereo.mp3"
+    },
+    {
+        "id": "lWw8pNel",
+        "name": "Radio Kiribati AM 1440",
+        "slug": "kiribati-radio-live",
+        "website": "https://www.facebook.com/kiriradiolive/",
+        "place": {
+            "name": "Tarawa",
+            "geo": [
+                172.9716617,
+                1.4518171
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Kiribati",
+            "code": "KI"
+        },
+        "mp3": "http://streamer3.rightclickitservices.com:9790/stream"
+    },
+    {
+        "id": "YYHtPpND",
+        "name": "107.4 BFM",
+        "slug": "-107-4-bfm",
+        "website": "http://1074bfm.co.nz/",
+        "place": {
+            "name": "Christchurch",
+            "geo": [
+                172.6362254,
+                -43.5320544
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://91.121.65.37:21652/;"
+    },
+    {
+        "id": "PAdQop2V",
+        "name": "8K.NZ",
+        "slug": "8k",
+        "website": "http://www.8k.nz",
+        "place": {
+            "name": "Christchurch",
+            "geo": [
+                172.6362254,
+                -43.5320544
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://radio8k.out.airtime.pro:8000/radio8k_a"
+    },
+    {
+        "id": "KODQmHuS",
+        "name": "Channel Z",
+        "slug": "channel-z",
+        "website": "https://www.channelz.co.nz",
+        "place": {
+            "name": "Christchurch",
+            "geo": [
+                172.6362254,
+                -43.5320544
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://cassini.shoutca.st:8406/stream"
+    },
+    {
+        "id": "8aP7PtbS",
+        "name": "Concert FM 89.7",
+        "slug": "concert-fm-89-7",
+        "website": "https://www.rnz.co.nz/concert",
+        "place": {
+            "name": "Christchurch",
+            "geo": [
+                172.6362254,
+                -43.5320544
+            ]
+        },
+        "functioning": true,
+        "secure": true,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "https://stream-ice.radionz.co.nz/concert.mp3"
+    },
+    {
+        "id": "hK60aBqh",
+        "name": "Plains FM 96.9",
+        "slug": "plains-fm-96-9",
+        "website": "http://www.plainsfm.org.nz/",
+        "place": {
+            "name": "Christchurch",
+            "geo": [
+                172.6362254,
+                -43.5320544
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://live.wizz.co.nz/pfm"
+    },
+    {
+        "id": "aV8MGgTK",
+        "name": "Pulzar FM 105.7",
+        "slug": "pulzar-fm-105-7",
+        "website": "http://www.pulzarfm.co.nz/",
+        "place": {
+            "name": "Christchurch",
+            "geo": [
+                172.6362254,
+                -43.5320544
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://198.105.216.204:8088/pulzarfm/;"
+    },
+    {
+        "id": "wE9oi9ku",
+        "name": "RDU 98.5FM",
+        "slug": "rdu-98-5fm",
+        "website": "http://www.rdu.org.nz/",
+        "place": {
+            "name": "Christchurch",
+            "geo": [
+                172.6362254,
+                -43.5320544
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://live.outcastdigital.com:8000/rdu"
+    },
+    {
+        "id": "Owx3dhOl",
+        "name": "Static: New Zealand",
+        "slug": "static-new-zealand",
+        "website": "http://www.staticmultimedianetwork.com",
+        "place": {
+            "name": "Christchurch",
+            "geo": [
+                172.6362254,
+                -43.5320544
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://streamingv2.shoutcast.com/Static-NewZealand"
+    },
+    {
+        "id": "VfzQiN0k",
+        "name": "Laser 558",
+        "slug": "owdjim",
+        "website": "http://www.owdjim.gen.nz/chris/radio/Laser558/",
+        "place": {
+            "name": "Denniston",
+            "geo": [
+                171.7948905,
+                -41.7383624
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://www.owdjim.gen.nz:12600/content/Laser558_Erin.mp3"
+    },
+    {
+        "id": "9Gb0mx5g",
+        "name": "Brian FM Ashburton 99.7 FM",
+        "slug": "brian-fm-ashburton-99-7-fm",
+        "website": "http://www.brianfm.com/",
+        "place": {
+            "name": "Ashburton",
+            "geo": [
+                171.74856720000002,
+                -43.90838129999999
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://s40.myradiostream.com:10106/;"
+    },
+    {
+        "id": "gaRSNFR9",
+        "name": "100.3FM South Canterbury",
+        "slug": "radio-100-3fm-south-canterbury",
+        "website": "https://100point3fm.co.nz",
+        "place": {
+            "name": "Timaru",
+            "geo": [
+                171.2549729,
+                -44.3969718
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://uk4-vn.mixstream.net:8066/;"
+    },
+    {
+        "id": "QeDEGBX5",
+        "name": "Brian FM Oamaru 88.8 FM",
+        "slug": "brian-fm-oamaru-88-8-fm",
+        "website": "http://www.brianfm.com/",
+        "place": {
+            "name": "Oamaru",
+            "geo": [
+                170.97041479999996,
+                -45.0975118
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://s40.myradiostream.com:10012/;"
+    },
+    {
+        "id": "IQScZo2t",
+        "name": "Rock It 107.5",
+        "slug": "rock-it-107-5",
+        "website": "http://www.rockit1075.com",
+        "place": {
+            "name": "Port Chalmers",
+            "geo": [
+                170.6213504,
+                -45.81589659999999
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://108.163.223.242:8368/stream"
+    },
+    {
+        "id": "AFPhhUri",
+        "name": "Otago Access Radio 105.4 FM",
+        "slug": "otago-access-radio-105-4-fm",
+        "website": "http://oar.org.nz",
+        "place": {
+            "name": "Dunedin",
+            "geo": [
+                170.5027976,
+                -45.8787605
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://live.wizz.co.nz/tr"
+    },
+    {
+        "id": "WKCWp8pE",
+        "name": "Radio One 91 FM",
+        "slug": "r1",
+        "website": "http://www.r1.co.nz/",
+        "place": {
+            "name": "Dunedin",
+            "geo": [
+                170.5027976,
+                -45.8787605
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://stream.r1.co.nz:8090/r1-high.mp3"
+    },
+    {
+        "id": "E9qgbiOF",
+        "name": "High Country FM",
+        "slug": "high-country-fm",
+        "website": "http://www.highcountryfm.co.nz",
+        "place": {
+            "name": "Omarama",
+            "geo": [
+                169.9669277,
+                -44.4880399
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://s40.myradiostream.com:13548/listen.mp3"
+    },
+    {
+        "id": "98xFixDr",
+        "name": "Brian FM Alexandra/Cromwell 105.5 FM",
+        "slug": "brian-fm-alexandra-cromwell-105-5-fm",
+        "website": "http://www.brianfm.com/",
+        "place": {
+            "name": "Alexandra",
+            "geo": [
+                169.37238100000002,
+                -45.232815
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://s40.myradiostream.com:10004/;"
+    },
+    {
+        "id": "U2fV7mDx",
+        "name": "OMCRN",
+        "slug": "omcrn",
+        "website": "http://www.omcrn.com",
+        "place": {
+            "name": "Wanaka",
+            "geo": [
+                169.1320981,
+                -44.7031813
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://93.190.141.15:7096/stream"
+    },
+    {
+        "id": "9qPPtogl",
+        "name": "Radio Wanaka FM 92.2",
+        "slug": "radio-wanaka-fm-92-2",
+        "website": "https://www.wanakalive.com/",
+        "place": {
+            "name": "Wanaka",
+            "geo": [
+                169.1320981,
+                -44.7031813
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://ais-nzme.streamguys1.com/nz_117_aac"
+    },
+    {
+        "id": "Pkyja8-1",
+        "name": "Roy FM 104.2",
+        "slug": "roy-fm-104-2",
+        "website": "https://www.wanakalive.com/",
+        "place": {
+            "name": "Wanaka",
+            "geo": [
+                169.1320981,
+                -44.7031813
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://ais-nzme.streamguys1.com/nz_121_aac"
+    },
+    {
+        "id": "Rva8VkrM",
+        "name": "Cave FM Gore",
+        "slug": "cave-fm-gore",
+        "website": "http://stream.velocitynet.co.nz:2199/start/cavefm",
+        "place": {
+            "name": "Gore",
+            "geo": [
+                168.945819,
+                -46.09879919999999
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://103.242.48.2:8010/stream"
+    },
+    {
+        "id": "yZgjPbDn",
+        "name": "Hokonui FM 94.8",
+        "slug": "hokonui-southland-fm-94-8",
+        "website": "https://www.hokonui.co.nz/",
+        "place": {
+            "name": "Gore",
+            "geo": [
+                168.945819,
+                -46.09879919999999
+            ]
+        },
+        "functioning": true,
+        "secure": true,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "https://ais-nzme.streamguys1.com/nz_013_aac"
+    },
+    {
+        "id": "TWA3MiOZ",
+        "name": "Radio Southland 96.4 FM",
+        "slug": "radio-southland-96-4-fm",
+        "website": "http://radiosouthland.org.nz/",
+        "place": {
+            "name": "Invercargill",
+            "geo": [
+                168.3537731,
+                -46.4131866
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Zealand",
+            "code": "NZ"
+        },
+        "mp3": "http://pebbles.wizzhosting.co.nz/rs"
+    },
+    {
+        "id": "8a46l0Jd",
+        "name": "Buzz FM 96.3",
+        "slug": "-96-buzz-fm",
+        "website": "http://www.buzzfm.vu/",
+        "place": {
+            "name": "Port Vila",
+            "geo": [
+                168.3273245,
+                -17.7332512
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Vanuatu",
+            "code": "VU"
+        },
+        "mp3": "http://103.75.20.93:9999/;"
+    },
+    {
+        "id": "0bPBG3KC",
+        "name": "Paradise FM98",
+        "slug": "paradise-fm98",
+        "website": "https://www.vbtc.vu/en/paradise-fm",
+        "place": {
+            "name": "Port Vila",
+            "geo": [
+                168.3273245,
+                -17.7332512
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Vanuatu",
+            "code": "VU"
+        },
+        "mp3": "http://radio.vbtc.media:7000/paradisefm"
+    },
+    {
+        "id": "pH28apWi",
+        "name": "Radio Vanuatu AM 1125",
+        "slug": "vbtc",
+        "website": "https://www.vbtc.vu/en/radio-vanuatu",
+        "place": {
+            "name": "Port Vila",
+            "geo": [
+                168.3273245,
+                -17.7332512
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Vanuatu",
+            "code": "VU"
+        },
+        "mp3": "http://radio.vbtc.media:7000/radiovanuatu"
+    },
+    {
+        "id": "zJSLk6B9",
+        "name": "Radio Nauru",
+        "slug": "radio-nauru",
+        "website": "http://www.naurugov.nr",
+        "place": {
+            "name": "Yaren",
+            "geo": [
+                166.9210913,
+                -0.5466856999999999
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Nauru",
+            "code": ""
+        },
+        "mp3": ""
+    },
+    {
+        "id": "Msb2UCDs",
+        "name": "Océane FM",
+        "slug": "oceane-fm",
+        "website": "http://www.oceanefm.nc",
+        "place": {
+            "name": "Nouméa",
+            "geo": [
+                166.45052429999998,
+                -22.2558234
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Calédonia",
+            "code": "NC"
+        },
+        "mp3": "http://radio.oceanefm.nc:8000/oceanenc"
+    },
+    {
+        "id": "Fiq78fON",
+        "name": "Radio Rythme Bleu",
+        "slug": "radio-rythme-bleu",
+        "website": "https://www.rrb.nc",
+        "place": {
+            "name": "Nouméa",
+            "geo": [
+                166.45052429999998,
+                -22.2558234
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "New Calédonia",
+            "code": "NC"
+        },
+        "mp3": "http://radio.lagoon.nc/rrb"
+    },
+    {
+        "id": "aO2h8YLi",
+        "name": "Radio Kamchatka Live",
+        "slug": "radio-kamchatka-live",
+        "website": "https://kamchatkalive.ru",
+        "place": {
+            "name": "Petropavlovsk-Kamchatsky",
+            "geo": [
+                158.67772590000004,
+                53.0409109
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Russia",
+            "code": "RU"
+        },
+        "mp3": "http://radio.kamchatkalive.ru:8103/dance"
+    },
+    {
+        "id": "FOCrEFtD",
+        "name": "Radio SV",
+        "slug": "radio-sv",
+        "website": "http://radiosv.com",
+        "place": {
+            "name": "Petropavlovsk-Kamchatsky",
+            "geo": [
+                158.67772590000004,
+                53.0409109
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Russia",
+            "code": "RU"
+        },
+        "mp3": "http://free.radioheart.ru:8000/radiosvkamchatka"
+    },
+    {
+        "id": "BRRnwFuM",
+        "name": "Svoe FM",
+        "slug": "svoe-fm",
+        "website": "",
+        "place": {
+            "name": "Petropavlovsk-Kamchatsky",
+            "geo": [
+                158.67772590000004,
+                53.0409109
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Russia",
+            "code": "RU"
+        },
+        "mp3": "http://radio.r41.ru:8000/SvoeFM"
+    },
+    {
+        "id": "JiT0oWc3",
+        "name": "Bay FM 99.9",
+        "slug": "bayfm",
+        "website": "http://www.bayfm.org/",
+        "place": {
+            "name": "Byron Bay",
+            "geo": [
+                153.6123788,
+                -28.6441616
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "mp3": "http://2bay.amrapstream.com:8000/stream"
+    },
+    {
+        "id": "KI6dZOZu",
+        "name": "Radio Navahang",
+        "slug": "radio-navahang",
+        "website": "http://www.navahang.com",
+        "place": {
+            "name": "Mermaid Beach",
+            "geo": [
+                153.437,
+                -28.044
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "mp3": "http://radio.navahang.com:9000/;"
+    },
+    {
+        "id": "aZz5aaZq",
+        "name": "4CRB 89.3 FM",
+        "slug": "4crb-89-3-fm",
+        "website": "http://www.4crb.com/",
+        "place": {
+            "name": "Burleigh Heads",
+            "geo": [
+                153.436,
+                -28.104
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "mp3": "http://stream.4crb.com:8000/stream/1/"
+    },
+    {
+        "id": "SQONgMYT",
+        "name": "Juice FM 107.3",
+        "slug": "juice-fm-107-3",
+        "website": "https://juice1073.com.au",
+        "place": {
+            "name": "Southport",
+            "geo": [
+                153.4183144,
+                -27.973794
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "mp3": "http://stream2.cnmns.net/juice1073"
+    },
+    {
+        "id": "yYtlaoqo",
+        "name": "ABC Gold Coast FM 91.7",
+        "slug": "abc-gold-coast-fm-91-7",
+        "website": "https://www.abc.net.au/radio/goldcoast/programs/",
+        "place": {
+            "name": "Gold Coast City",
+            "geo": [
+                153.4,
+                -28.016667
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "mp3": "http://live-radio01.mediahubaustralia.com/4GLDW/aac/"
+    },
+    {
+        "id": "XPk1SZRt",
+        "name": "Gold Coast Radio FM 94.1",
+        "slug": "gold-coast-radio-fm-94-1",
+        "website": "http://www.941fm.com.au/",
+        "place": {
+            "name": "Gold Coast City",
+            "geo": [
+                153.4,
+                -28.016667
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "mp3": "http://s9.viastreaming.net:9565/;"
+    },
+    {
+        "id": "OFxJgEk2",
+        "name": "Heat Radio",
+        "slug": "heat-radio",
+        "website": "https://www.facebook.com/HeatRadioOnline/",
+        "place": {
+            "name": "Gold Coast City",
+            "geo": [
+                153.4,
+                -28.016667
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "mp3": "http://174.37.159.206:8106/stream/;"
+    },
+    {
+        "id": "AcA9MREY",
+        "name": "Radio 97 FM 104.1",
+        "slug": "radio-97-fm-104-1",
+        "website": "http://www.radio97.com.au/",
+        "place": {
+            "name": "Gold Coast City",
+            "geo": [
+                153.4,
+                -28.016667
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "mp3": "http://s2.viastreaming.net:7100/;;"
+    },
+    {
+        "id": "63Y_b24c",
+        "name": "Radio Metro FM 105.7",
+        "slug": "radio-metro-fm-105-7",
+        "website": "http://www.radiometro.com.au/",
+        "place": {
+            "name": "Gold Coast City",
+            "geo": [
+                153.4,
+                -28.016667
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "mp3": "http://stream.radiometro.com.au:7777/;"
+    },
+    {
+        "id": "YIfGIKys",
+        "name": "Radio Pac Pines",
+        "slug": "radio-pac-pines",
+        "website": "https://radio.pacificpinesalliance.com.au/",
+        "place": {
+            "name": "Gold Coast City",
+            "geo": [
+                153.4,
+                -28.016667
+            ]
+        },
+        "functioning": true,
+        "secure": false,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "mp3": "http://streamer.radio.co/s168fa79ab/listen"
+    },
+    {
+        "id": "9UC_gi6Q",
+        "name": "Rebel FM",
+        "slug": "rebel-fm",
+        "website": "http://www.rebelfm.com.au",
+        "place": {
+            "name": "Helensvale",
+            "geo": [
+                153.3387693,
+                -27.9032293
+            ]
+        },
+        "functioning": true,
+        "secure": true,
+        "country": {
+            "name": "Australia",
+            "code": "AU"
+        },
+        "mp3": "https://au1.fastcast4u.com/proxy/rbllgn?mp=%2Fstream"
+    }
+	]
